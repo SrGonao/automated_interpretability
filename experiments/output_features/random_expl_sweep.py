@@ -1,6 +1,6 @@
 import itertools
 
-base_cmd = "python /mnt/ssd-1/alexm/sae-auto-interp/run_score_with_random_expls.py "
+base_cmd = "python run_score_with_random_expls.py "
 
 cfg_ranges = {
     "n_feats": [300],
