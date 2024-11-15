@@ -1,6 +1,6 @@
 import itertools
 
-base_cmd = "python /mnt/ssd-1/alexm/sae-auto-interp/counterfactual_pipeline.py "
+base_cmd = "python counterfactual_pipeline.py "
 
 cfg_ranges = {
     "n_feats": [300],
