@@ -4,10 +4,10 @@ import random
 from transformers import AutoTokenizer
 
 # Load the activation data from the JSON file
-with open("/mnt/ssd-1/gpaulo/SAE-Zoology/extras/neuronpedia/formatted_contexts/activating_contexts_16k/mlp/0/layer_0_contexts_chunk_1.json", "r") as f:
+with open("path_to_contexts", "r") as f:
     activation_data = json.load(f)
 # Load the explanation data
-with open("/mnt/ssd-1/gpaulo/SAE-Zoology/extras/explanations_16k/model.layers.0.post_feedforward_layernorm_feature.json", "r") as f:
+with open("path_to_explanations", "r") as f:
     explanation_data = json.load(f)
 tokenizer = AutoTokenizer.from_pretrained("google/gemma-2-9b")
 
