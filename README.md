@@ -2,7 +2,7 @@
 
 This library provides utilities for generating and scoring text explanations of sparse autoencoder (SAE) features. The explainer and scorer models can be run locally or acessed using API calls via OpenRouter.
 
-This branch contains the code used for the article [link]. Scripts to launch the experiments are in the experiments directory, which also contains the code to reproduce the figures. We also provide the data used to generate the figures. We also provide simple examples to get started with the experiments, in the [examples](examples) directory.
+This branch contains the code used for the article [link](https://openreview.net/forum?id=5lIXRf8Lnw&noteId=5lIXRf8Lnw). Scripts to launch the experiments are in the experiments directory, which also contains the code to reproduce the figures. We also provide the data used to generate the figures. We also provide simple examples to get started with the experiments, in the [examples](examples) directory.
 
 The explanations generated can be found in the [explanations](explanations) directory.
 
@@ -249,15 +249,6 @@ Example scripts can be found in `demos`. Some of these scripts can be called fro
 The experiments discussed in [the blog post](https://blog.eleuther.ai/autointerp/) were mostly run in a legacy version of this code, which can be found in the [Experiments](https://github.com/EleutherAI/sae-auto-interp/tree/Experiments) branch.
 
 
-# License
-
-Copyright 2024 the EleutherAI Institute
-
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
 
    Unless required by applicable law or agreed to in writing, software
    distributed under the License is distributed on an "AS IS" BASIS,
